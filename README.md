@@ -6,7 +6,7 @@ A UDP Only Syslog transport for [winston][0].
 
 `````
   $ npm install winston 
-  $ npm install winston-syslogUdp  **coming soon
+  $ npm install winston-syslogudp
 `````
 
 ## Motivation
