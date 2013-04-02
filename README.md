@@ -1,6 +1,6 @@
 # winston-syslogUdp
 
-A UDP Only Syslog transport for [winston][0].
+A UDP Only Syslog transport for [winston].
 
 ## Installation
 
@@ -13,7 +13,7 @@ A UDP Only Syslog transport for [winston][0].
 This module is based on winston-syslog and syslogUdp and intended to provide a lightweight UDP only winston syslog transport.  It was created when the authors experienced challenges with winston-syslog and with winston-loggly.
 
 ## Usage
-To use the Syslog transport in [winston][0], you simply need to require it and then either add it to an existing [winston][0] logger or pass an instance to a new [winston][0] logger:
+To use the Syslog transport in [winston], you simply need to require it and then either add it to an existing [winston] logger or pass an instance to a new [winston] logger:
 
 ``` js
   var winston = require('winston');
@@ -29,10 +29,10 @@ Options:
 * __localhost:__ Host to indicate that log messages are coming from (Default: `localhost`).
 * __type:__ The type of the syslog protocol to use (Default: `BSD`).
 
-*Metadata:* Logged as string compiled by [glossy][3].
+*Metadata:* Logged as string compiled by [glossy].
 
 ## Log Levels
-Because syslog only allows a subset of the levels available in [winston][0], levels that do not match will be ignored. Therefore, in order to use `winston-syslog` effectively, you should indicate to [winston][0] that you want to use the syslog levels:
+Because syslog only allows a subset of the levels available in [winston], levels that do not match will be ignored. Therefore, in order to use `winston-syslogudp` effectively, you should indicate to [winston] that you want to use the syslog levels:
 
 ``` js
   var winston = require('winston');
