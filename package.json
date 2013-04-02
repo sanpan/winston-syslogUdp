@@ -1,0 +1,35 @@
+{
+  "name": "winston-syslogUdp",
+  "description": "A UDP only syslog transport for winston",
+  "version": "0.0.1",
+  "author": {
+    "name": "Sanjay Pandit",
+    "email": "sanjay@pandit.us"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sanpan/winston-syslogUdp.git"
+  },
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools",
+    "winston",
+    "syslog",
+    "udp"
+  ],
+  "dependencies": {
+    "glossy": "0.x.x"
+  },
+  "devDependencies": {
+    "winston": "0.4.x",
+    "vows": "0.5.x"
+  },
+  "main": "./lib/winston-syslog",
+  "scripts": {
+    "test": "sudo vows test/*-test.js --spec"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
