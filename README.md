@@ -17,7 +17,7 @@ To use the Syslog transport in [winston], you simply need to require it and then
 
 ``` js
   var winston = require('winston');
-  require('winston-syslog').Syslog;  
+  require('winston-syslogudp').Syslog;  
   winston.add(winston.transports.Syslog, options);
 ```
 
