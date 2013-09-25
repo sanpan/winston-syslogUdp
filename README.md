@@ -1,6 +1,6 @@
 # winston-syslogUdp
 
-A UDP Only Syslog transport for [winston].
+A UDP Only Syslog transport for [winston], developed for use with Loggly but compliant with syslog standards.
 
 ## Installation
 
@@ -28,6 +28,7 @@ Options:
 * __facility:__ Syslog facility to use (Default: `local0`).
 * __localhost:__ Host to indicate that log messages are coming from (Default: `localhost`).
 * __type:__ The type of the syslog protocol to use (Default: `BSD`).
+* __logglyHeader:__ The additional information required for loggly v2.
 
 *Metadata:* Logged as string compiled by [glossy].
 
