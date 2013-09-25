@@ -28,7 +28,7 @@ Options:
 * __facility:__ Syslog facility to use (Default: `local0`).
 * __localhost:__ Host to indicate that log messages are coming from (Default: `localhost`).
 * __type:__ The type of the syslog protocol to use (Default: `BSD`).
-* __logglyHeader:__ The additional information required for loggly v2.
+* __logglyHeader:__ The additional information required for loggly v2.  example: `logglyHeader = '[41a111bb-12f1-9c9c-b14c-12345a678aaa@41058] tags="foo"'` (Default: `null`).
 
 *Metadata:* Logged as string compiled by [glossy].
 
